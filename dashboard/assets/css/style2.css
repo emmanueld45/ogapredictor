@@ -1,0 +1,1847 @@
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 690px) {
+  /*** league PREDICTIONS PAGE START ***/
+  .league-predictions-wrapper {
+    width: 100%;
+  }
+
+  .league-predictions-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    background-color: ;
+    margin-bottom: 30px;
+  }
+
+  .league-predictions-wrapper .header-container .title {
+    font-size: 15px;
+    border-bottom: 1px solid green;
+    padding-bottom: 3px;
+  }
+
+  .league-predictions-wrapper .header-container .stake {
+    float: right;
+    font-size: 15px;
+  }
+
+  .league-predictions-wrapper .header-container .centered-div .banner {
+    width: 70px;
+    height: auto;
+  }
+  .league-predictions-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #eee;
+    margin-bottom: 30px;
+  }
+
+  .league-predictions-container .box1 {
+    width: 100%;
+    background-color: ;
+  }
+  .league-predictions-container .box2 {
+    background-color: ;
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .league-predictions-container .box3 {
+    width: 60%;
+    padding: 5px;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+  }
+  .league-predictions-container .box4 {
+    width: 5%;
+    padding: 0px;
+  }
+
+  .league-predictions-container .box1 .date {
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .league-predictions-container .box1 .date span {
+    display: block;
+    font-size: 8px;
+    color: grey;
+  }
+
+  .league-predictions-container .box2 .icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .league-predictions-container .box3 .option {
+    font-size: 12px;
+    margin-right: 3px;
+    /* width: 60px; */
+  }
+
+  .league-predictions-container .box4 .points {
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-size: 13px;
+  }
+  /*** league PREDICTIONS PAGE START ***/
+
+  /**** ONE ON ONE HOME WRAPPER START ****/
+  .ooo-home-wrapper {
+    width: 100%;
+  }
+
+  .ooo-home-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ooo-home-wrapper .header-container .title {
+    font-size: 20px;
+  }
+
+  .ooo-home-wrapper .box-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .ooo-home-wrapper .box-container .box {
+    width: 45%;
+    height: 150px;
+    background-color: #eee;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .ooo-home-wrapper .box-container .box .title {
+    width: 100%;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .ooo-home-wrapper .box-container .box .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    padding: 10px;
+  }
+
+  .ooo-home-wrapper .box-container .box .image-container .image {
+    width: 100%;
+    height: auto;
+  }
+  /*** ONE ON ONE HOME WRAPPER ***/
+
+  /*** LEAGUES PAGE START ***/
+  .leagues-wrapper {
+    width: 100%;
+  }
+
+  .leagues-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .leagues-wrapper .header-container .title {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .leagues-wrapper .leagues-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+
+  .leagues-wrapper .leagues-container .box {
+    width: 45%;
+    height: 200px;
+    background-color: #eee;
+    position: relative;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .leagues-wrapper .leagues-container .box .logo {
+    width: 65px;
+    height: 65px;
+  }
+
+  .leagues-wrapper .leagues-container .box .title-container {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .leagues-wrapper .leagues-container .box .title-container .small-title {
+    display: block;
+    color: grey;
+    font-size: 11px;
+  }
+
+  .leagues-wrapper .leagues-container .box .title-container .large-title {
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /*** LEAGUES PAGE END ***/
+
+  /*** LEAGUE STAKE PAGE START ****/
+
+  .league-stake-wrapper {
+    width: 100%;
+  }
+
+  .league-stake-wrapper .header-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .league-stake-wrapper .header-container .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .league-stake-wrapper .league-stake-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .league-stake-wrapper .league-stake-container .box {
+    width: 45%;
+    height: 150px;
+    background-color: #eee;
+    padding: 10px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .league-stake-wrapper .league-stake-container .box .top-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .league-stake-wrapper .league-stake-container .box .middle-title {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .league-stake-wrapper .league-stake-container .box .bottom-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /*** LEAGUE STAKE PAGE END ****/
+
+  /*** OOO STAKE PAGE START ****/
+  .ooo-stake-wrapper {
+    width: 100%;
+  }
+  .ooo-stake-wrapper .header-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .ooo-stake-wrapper .header-container .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box {
+    width: 45%;
+    height: 150px;
+    background-color: #eee;
+    padding: 10px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box .top-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box .middle-title {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box .bottom-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /*** OOO STAKE PAGE END ****/
+
+  /*** OOO PREDICTIONS PAGE START ***/
+  .ooo-predictions-wrapper {
+    width: 100%;
+  }
+
+  .ooo-predictions-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    background-color: ;
+    margin-bottom: 30px;
+  }
+
+  .ooo-predictions-wrapper .header-container .title {
+    font-size: 15px;
+    border-bottom: 1px solid green;
+    padding-bottom: 3px;
+  }
+
+  .ooo-predictions-wrapper .header-container .stake {
+    float: right;
+    font-size: 15px;
+  }
+
+  .ooo-predictions-wrapper .header-container .centered-div .banner {
+    width: 70px;
+    height: auto;
+  }
+  .ooo-predictions-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #eee;
+    margin-bottom: 30px;
+  }
+
+  .ooo-predictions-container .box1 {
+    width: 100%;
+    background-color: ;
+  }
+  .ooo-predictions-container .box2 {
+    background-color: ;
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .ooo-predictions-container .box3 {
+    width: 60%;
+    padding: 5px;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+  }
+  .ooo-predictions-container .box4 {
+    width: 5%;
+    padding: 0px;
+  }
+
+  .ooo-predictions-container .box1 .date {
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .ooo-predictions-container .box1 .date span {
+    display: block;
+    font-size: 8px;
+    color: grey;
+  }
+
+  .ooo-predictions-container .box2 .icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+  .ooo-predictions-container .box3 .option {
+    font-size: 12px;
+    margin-right: 3px;
+    /* width: 60px; */
+  }
+
+  .ooo-predictions-container .box4 .points {
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-size: 13px;
+  }
+  /*** OOO PREDICTIONS PAGE START ***/
+
+  /*** ONE ON ONE GAMES PAGE START ****/
+  .ooo-games-wrapper {
+    width: 100%;
+  }
+
+  .ooo-games-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .ooo-games-wrapper .header-container .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #eee;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-left {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-middle {
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-right {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-bottom {
+    width: 100%;
+    position: relative;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-left .logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-right .logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  .ooo-games-wrapper
+    .ooo-games-container
+    .box
+    .ooo-games-bottom
+    .names-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .ooo-games-wrapper
+    .ooo-games-container
+    .box
+    .ooo-games-bottom
+    .names-container
+    .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-bottom .info {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: grey;
+    font-size: 13px;
+  }
+
+  .ooo-games-wrapper
+    .ooo-games-container
+    .box
+    .ooo-games-bottom
+    .centered-div
+    .challenge-btn {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #027838;
+    color: white;
+    font-size: 16px;
+  }
+  /*** ONE ON ONE GAMES PAGE END ****/
+
+  /*** ONE ON ONE PREDICTORS START ***/
+  .ooo-predictors-wrapper {
+    width: 100%;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container {
+    width: 95%;
+    /* height: 300px; */
+    background-color: #027838;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .ooo-predictors-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .ooo-predictors-wrapper .header-container .title {
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box {
+    width: 100%;
+    /* height: 50px; */
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box.active {
+    background-color: orange;
+    color: black;
+  }
+  .ooo-predictors-wrapper .ooo-predictors-container .box .name {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box .badge {
+    font-size: 12px;
+    color: grey;
+    opacity: 0.8;
+    position: relative;
+    font-weight: normal;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box .details {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    font-size: 12px;
+  }
+  /*** ONE ONE ONE PREDICTORS END ***/
+
+  /*** MY ACCOUNT PAGE START ***/
+  .myaccount-wrapper {
+    width: 100%;
+  }
+
+  .myaccount-wrapper .header-container {
+    width: 100%;
+  }
+
+  .myaccount-wrapper .header-container .title {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .myaccount-wrapper .top-section {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .myaccount-wrapper .top-section .top-left {
+    width: 30%;
+    /* height: 100px; */
+    background-color: ;
+    padding: 10px;
+  }
+
+  .myaccount-wrapper .top-section .top-right {
+    width: 70%;
+    /* height: 100px; */
+    background-color: ;
+    padding: 10px;
+  }
+
+  .myaccount-wrapper .top-section .top-left .centered-div .profile-image {
+    width: 70px;
+    height: 70px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .myaccount-wrapper .top-section .top-left .centered-div .upload-image-btn {
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 12px;
+    width: 100px;
+  }
+
+  .myaccount-wrapper .top-section .top-right .detail {
+    width: 100%;
+    padding-bottom: 5px;
+    font-size: 13px;
+  }
+
+  .password-section {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .password-section .form-container {
+    width: 90%;
+    /* margin-left: 100px; */
+    /* background-color: #eee; */
+  }
+
+  .password-section .header-container {
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .password-section .field-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 15px;
+  }
+
+  .password-section .field-container .field-left {
+    width: 30%;
+    font-size: 13px;
+  }
+
+  .password-section .field-container .field-right {
+    width: 70%;
+    font-size: 14px;
+    /* border: none;
+      border-bottom: 1px solid lightgrey; */
+  }
+
+  /*** MY ACCOUNT PAGE END ***/
+
+  /*** BET SLIP START ***/
+  .betslip-wrapper {
+    width: 100%;
+  }
+  .betslip-wrapper .betslip-container {
+    width: 95%;
+    margin: auto;
+    border: 2px solid grey;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+
+  .betslip-wrapper .betslip-container .header-container {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .betslip-wrapper .betslip-container .header-container .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .betslip-wrapper .betslip-container .header-container .details {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+  }
+
+  .betslip-wrapper .betslip-container .box {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+  }
+
+  .betslip-wrapper .betslip-container .box .clubs {
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+
+  .betslip-wrapper .betslip-container .box .choice {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    opacity: 0.6;
+  }
+
+  .betslip-wrapper .betslip-container .box .time {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 14px;
+  }
+
+  .betslip-wrapper .betslip-container .box .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: mediumseagreen;
+    position: absolute;
+    right: 5px;
+    top: 40%;
+  }
+  /*** BET SLIP END ****/
+
+  /*** BET SLIP MODAL START ***/
+  .betslip-modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    z-index: 1200;
+  }
+  .betslip-modal-wrapper .betslip-modal-container {
+    width: 95%;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin-bottom: 200px;
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: white;
+    top: 30px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .close-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .header-container {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .header-container .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .header-container .details {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .clubs {
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .choice {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    opacity: 0.6;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .time {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 14px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: mediumseagreen;
+    position: absolute;
+    right: 5px;
+    top: 40%;
+  }
+  /*** BET SLIP MODAL END ****/
+
+  /*** HISTORY START ***/
+  .history-wrapper {
+    width: 100%;
+  }
+
+  .history-wrapper .tab-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    /* justify-content: center; */
+    margin-bottom: 10px;
+  }
+
+  .history-wrapper .tab-container .tab {
+    /* width: 120px; */
+    padding: 5px;
+    background-color: #eee;
+    color: grey;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .history-wrapper .tab-container .tab:hover {
+    background-color: rgba(2, 120, 55, 0.733);
+    color: white;
+  }
+
+  .history-wrapper .tab-container .tab.active {
+    background-color: #027838;
+    color: white;
+  }
+
+  .history-wrapper .history-container {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .history-wrapper .history-container table {
+    width: 100%;
+  }
+
+  .history-wrapper .history-container table th {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .history-wrapper .history-container table td {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .history-wrapper .history-container table td a {
+    font-size: 12px;
+    padding: 3px;
+  }
+  /*** HISTORY END ***/
+}
+
+/** ********************end of smaller screen********************** **/
+/************/
+/************/
+/************/
+/************/
+/************/
+/************/
+/************/
+/************/
+/************/
+/************/
+/** *******************start of bigger screen************************/
+@media only screen and (min-width: 690px) {
+  /*** league PREDICTIONS PAGE START ***/
+  .league-predictions-wrapper {
+    width: 100%;
+  }
+
+  .league-predictions-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    background-color: ;
+    margin-bottom: 30px;
+  }
+
+  .league-predictions-wrapper .header-container .title {
+    font-size: 20px;
+    border-bottom: 1px solid green;
+    padding-bottom: 3px;
+  }
+
+  .league-predictions-wrapper .header-container .stake {
+    float: right;
+    font-size: 20px;
+  }
+
+  .league-predictions-wrapper .header-container .centered-div .banner {
+    width: 100px;
+    height: auto;
+  }
+  .league-predictions-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #eee;
+    margin-bottom: 30px;
+  }
+
+  .league-predictions-container .box1 {
+    width: 20%;
+    background-color: ;
+  }
+  .league-predictions-container .box2 {
+    background-color: ;
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .league-predictions-container .box3 {
+    width: 40%;
+    padding: 10px;
+  }
+  .league-predictions-container .box4 {
+    width: 10%;
+    padding: 10px;
+  }
+
+  .league-predictions-container .box1 .date {
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .league-predictions-container .box1 .date span {
+    display: block;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .league-predictions-container .box2 .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .league-predictions-container .box3 .option {
+    font-size: 15px;
+    width: 70px;
+  }
+
+  .league-predictions-container .box4 .points {
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-size: 18px;
+  }
+  /*** league PREDICTIONS PAGE START ***/
+
+  /**** ONE ON ONE HOME WRAPPER START ****/
+  .ooo-home-wrapper {
+    width: 100%;
+  }
+
+  .ooo-home-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ooo-home-wrapper .header-container .title {
+    font-size: 20px;
+  }
+
+  .ooo-home-wrapper .box-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .ooo-home-wrapper .box-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .ooo-home-wrapper .box-container .box .title {
+    width: 100%;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .ooo-home-wrapper .box-container .box .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    padding: 10px;
+  }
+
+  .ooo-home-wrapper .box-container .box .image-container .image {
+    width: 100%;
+    height: auto;
+  }
+  /*** ONE ON ONE HOME WRAPPER ***/
+
+  /*** LEAGUES PAGE START ***/
+  .leagues-wrapper {
+    width: 100%;
+  }
+
+  .leagues-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .leagues-wrapper .header-container .title {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .leagues-wrapper .leagues-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+
+  .leagues-wrapper .leagues-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    position: relative;
+    border-radius: 3px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  .leagues-wrapper .leagues-container .box .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .leagues-wrapper .leagues-container .box .title-container {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .leagues-wrapper .leagues-container .box .title-container .small-title {
+    display: block;
+    color: grey;
+    font-size: 13px;
+  }
+
+  .leagues-wrapper .leagues-container .box .title-container .large-title {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /*** LEAGUES PAGE END ***/
+
+  /*** LEAGUE STAKE PAGE START ****/
+
+  .league-stake-wrapper {
+    width: 100%;
+  }
+
+  .league-stake-wrapper .header-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .league-stake-wrapper .header-container .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .league-stake-wrapper .league-stake-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .league-stake-wrapper .league-stake-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    padding: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+  .league-stake-wrapper .league-stake-container .box .top-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .league-stake-wrapper .league-stake-container .box .middle-title {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .league-stake-wrapper .league-stake-container .box .bottom-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /*** LEAGUE STAKE PAGE END ****/
+
+  /*** OOO STAKE PAGE START ****/
+  .ooo-stake-wrapper {
+    width: 100%;
+  }
+  .ooo-stake-wrapper .header-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .ooo-stake-wrapper .header-container .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    padding: 10px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box .top-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box .middle-title {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .ooo-stake-wrapper .ooo-stake-container .box .bottom-title {
+    width: 100%;
+    padding: 10px;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /*** OOO STAKE PAGE END ****/
+
+  /*** ONE ON ONE PREDICTIONS PAGE START ***/
+  .ooo-predictions-wrapper {
+    width: 100%;
+  }
+
+  .ooo-predictions-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    background-color: ;
+    margin-bottom: 30px;
+  }
+
+  .ooo-predictions-wrapper .header-container .title {
+    font-size: 20px;
+    border-bottom: 1px solid green;
+    padding-bottom: 3px;
+  }
+
+  .ooo-predictions-wrapper .header-container .stake {
+    float: right;
+    font-size: 20px;
+  }
+
+  .ooo-predictions-wrapper .header-container .centered-div .banner {
+    width: 100px;
+    height: auto;
+  }
+  .ooo-predictions-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #eee;
+    margin-bottom: 30px;
+  }
+
+  .ooo-predictions-container .box1 {
+    width: 20%;
+    background-color: ;
+  }
+  .ooo-predictions-container .box2 {
+    background-color: ;
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .ooo-predictions-container .box3 {
+    width: 40%;
+    padding: 10px;
+  }
+  .ooo-predictions-container .box4 {
+    width: 10%;
+    padding: 10px;
+  }
+
+  .ooo-predictions-container .box1 .date {
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .ooo-predictions-container .box1 .date span {
+    display: block;
+    font-size: 13px;
+    color: grey;
+  }
+
+  .ooo-predictions-container .box2 .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .ooo-predictions-container .box3 .option {
+    font-size: 15px;
+    width: 70px;
+  }
+
+  .ooo-predictions-container .box4 .points {
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-size: 18px;
+  }
+  /*** ONE ON ONE PREDICTIONS PAGE START ***/
+
+  /*** ONE ON ONE GAMES PAGE START ****/
+  .ooo-games-wrapper {
+    width: 100%;
+  }
+
+  .ooo-games-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .ooo-games-wrapper .header-container .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box {
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #eee;
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-left {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-middle {
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-right {
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-bottom {
+    width: 100%;
+    position: relative;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-left .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-right .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ooo-games-wrapper
+    .ooo-games-container
+    .box
+    .ooo-games-bottom
+    .names-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .ooo-games-wrapper
+    .ooo-games-container
+    .box
+    .ooo-games-bottom
+    .names-container
+    .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .ooo-games-wrapper .ooo-games-container .box .ooo-games-bottom .info {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+  }
+
+  .ooo-games-wrapper
+    .ooo-games-container
+    .box
+    .ooo-games-bottom
+    .centered-div
+    .challenge-btn {
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #027838;
+    color: white;
+  }
+  /*** ONE ON ONE GAMES PAGE END ****/
+
+  /*** ONE ON ONE PREDICTORS START ***/
+  .ooo-predictors-wrapper {
+    width: 100%;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container {
+    width: 500px;
+    /* height: 300px; */
+    background-color: #027838;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .ooo-predictors-wrapper .header-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .ooo-predictors-wrapper .header-container .title {
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box {
+    width: 100%;
+    /* height: 50px; */
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box.active {
+    background-color: orange;
+    color: black;
+  }
+  .ooo-predictors-wrapper .ooo-predictors-container .box .name {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box .badge {
+    font-size: 14px;
+    color: grey;
+    opacity: 0.8;
+    position: relative;
+    font-weight: normal;
+  }
+
+  .ooo-predictors-wrapper .ooo-predictors-container .box .details {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+  }
+  /*** ONE ONE ONE PREDICTORS END ***/
+
+  /*** MY ACCOUNT PAGE START ***/
+  .myaccount-wrapper {
+    width: 100%;
+  }
+
+  .myaccount-wrapper .header-container {
+    width: 100%;
+  }
+
+  .myaccount-wrapper .header-container .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .myaccount-wrapper .top-section {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .myaccount-wrapper .top-section .top-left {
+    width: 20%;
+    /* height: 100px; */
+    background-color: ;
+    padding: 10px;
+  }
+
+  .myaccount-wrapper .top-section .top-right {
+    width: 80%;
+    /* height: 100px; */
+    background-color: ;
+    padding: 10px;
+  }
+
+  .myaccount-wrapper .top-section .top-left .centered-div .profile-image {
+    width: 120px;
+    height: 120px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .myaccount-wrapper .top-section .top-left .centered-div .upload-image-btn {
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .myaccount-wrapper .top-section .top-right .detail {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .password-section {
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .password-section .form-container {
+    width: 400px;
+    margin-left: 100px;
+    /* background-color: #eee; */
+  }
+
+  .password-section .header-container {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .password-section .field-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 15px;
+  }
+
+  .password-section .field-container .field-left {
+    width: 30%;
+    font-size: 16px;
+  }
+
+  .password-section .field-container .field-right {
+    width: 70%;
+    /* border: none;
+    border-bottom: 1px solid lightgrey; */
+  }
+
+  /*** MY ACCOUNT PAGE END ***/
+
+  /*** BET SLIP START ***/
+  .betslip-wrapper {
+    width: 100%;
+  }
+  .betslip-wrapper .betslip-container {
+    width: 500px;
+    margin: auto;
+    border: 2px solid grey;
+    margin-bottom: 100px;
+    padding: 10px;
+  }
+
+  .betslip-wrapper .betslip-container .header-container {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .betslip-wrapper .betslip-container .header-container .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .betslip-wrapper .betslip-container .header-container .details {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+  }
+
+  .betslip-wrapper .betslip-container .box {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+  }
+
+  .betslip-wrapper .betslip-container .box .clubs {
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+
+  .betslip-wrapper .betslip-container .box .choice {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    opacity: 0.6;
+  }
+
+  .betslip-wrapper .betslip-container .box .time {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 14px;
+  }
+
+  .betslip-wrapper .betslip-container .box .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: mediumseagreen;
+    position: absolute;
+    right: 5px;
+    top: 40%;
+  }
+  /*** BET SLIP END ****/
+
+  /*** BET SLIP MODAL START ***/
+  .betslip-modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  .betslip-modal-wrapper .betslip-modal-container {
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    margin-bottom: 200px;
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: white;
+    top: 30px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .close-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .header-container {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .header-container .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .header-container .details {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .clubs {
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .choice {
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    opacity: 0.6;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .time {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 14px;
+  }
+
+  .betslip-modal-wrapper .betslip-modal-container .box .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: mediumseagreen;
+    position: absolute;
+    right: 5px;
+    top: 40%;
+  }
+  /*** BET SLIP MODAL END ****/
+
+  /*** HISTORY START ***/
+  .history-wrapper {
+    width: 100%;
+  }
+
+  .history-wrapper .tab-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+    justify-content: center;
+  }
+
+  .history-wrapper .tab-container .tab {
+    width: 120px;
+    padding: 8px;
+    background-color: #eee;
+    color: grey;
+    margin: 0px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+
+  .history-wrapper .tab-container .tab:hover {
+    background-color: rgba(2, 120, 55, 0.733);
+    color: white;
+  }
+
+  .history-wrapper .tab-container .tab.active {
+    background-color: #027838;
+    color: white;
+  }
+
+  .history-wrapper .history-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .history-wrapper .history-container table {
+    width: 100%;
+  }
+
+  .history-wrapper .history-container table th {
+    padding: 10px;
+  }
+  .history-wrapper .history-container table td {
+    padding: 10px;
+  }
+  /*** HISTORY END ***/
+}
+
+/** **************end of bigger screen************************ **/

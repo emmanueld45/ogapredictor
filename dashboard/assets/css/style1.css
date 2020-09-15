@@ -1,0 +1,542 @@
+/*************************** start of  smaller screen*******************/
+@media only screen and (max-width: 690px) {
+  .main-area-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    background-color: black;
+  }
+
+  .main-area-container .top {
+    width: 100%;
+    height: 100px;
+    background-color: #027838;
+  }
+
+  .main-area-container .bottom {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #eee;
+    position: relative;
+  }
+  .main-area-container .bottom .left {
+    display: none;
+    background-color: #eee;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  .main-area-container .bottom .right {
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 0px 0px;
+    position: absolute;
+    left: 0%;
+    height: calc(100% + 40px);
+    top: -40px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  /*** loader start ****/
+  .loader-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #027838;
+    z-index: 5000;
+  }
+
+  .loader-container .centered-div .loader-img {
+    width: 60px;
+    height: 60px;
+    margin-top: 45%;
+    animation: rotateball 180s ease infinite;
+  }
+
+  .loader-container .centered-div .shadow {
+    width: 50px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: black;
+    margin-top: 20px;
+    filter: blur(6px);
+  }
+
+  @keyframes rotateball {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(36000deg);
+    }
+  }
+
+  .loader-container .centered-div .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    animation: blinkloadertitle 1s ease infinite;
+  }
+
+  @keyframes blinkloadertitle {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+
+  /*** loader end ***/
+
+  /** desktop header start ***/
+
+  .desktop-header-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    display: none;
+  }
+
+  /** desktop header end ***/
+
+  /** desktop menu start **/
+  .desktop-menu-container {
+    display: none;
+  }
+
+  /** desktop menu end ***/
+
+  /** desktop footer start ***/
+  .desktop-footer-container {
+    display: none;
+  }
+
+  /** desktop footer end ***/
+
+  /** mobile bottom menu start ***/
+  .mobile-bottom-menu-container {
+    position: fixed !important;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 1000;
+    background-color: #027838;
+    color: white;
+  }
+
+  .mobile-bottom-menu-container .box {
+    width: 25%;
+    padding: 0px;
+    color: white;
+    text-align: center;
+  }
+
+  .mobile-bottom-menu-container .box.active {
+    color: orange;
+  }
+
+  .mobile-bottom-menu-container .box i {
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+  }
+
+  .mobile-bottom-menu-container .box span {
+    font-size: 13px;
+    display: block;
+  }
+  /** mobile bottom menu end ***/
+
+  /*** mobile header start ****/
+  .mobile-header-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .mobile-header-container .logo {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .mobile-header-container .logo .logo-icon {
+    width: 60px;
+    height: auto;
+    margin-right: -10px;
+  }
+
+  .mobile-header-container .dropdown-btn {
+    float: right;
+    font-size: 20px;
+    color: orange;
+  }
+
+  .mobile-header-container ul {
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    z-index: 1000;
+    background-color: #036d32;
+    display: none;
+  }
+
+  .mobile-header-container ul li {
+    width: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    left: -20px;
+    opacity: 0.9;
+  }
+
+  .mobile-header-container ul li.active {
+    background-color: #027838;
+  }
+  /*** mobile header end ***/
+
+  /** mobile footer start ***/
+  .mobile-footer-container {
+    position: relative;
+    background-color: #eee;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .mobile-footer-container ul li {
+    display: inline-block;
+    font-size: 14px;
+    color: grey !important;
+    margin-right: 10px;
+    transition: 0.5s ease;
+  }
+
+  .mobile-footer-container ul li a {
+    color: grey;
+  }
+  .mobile-footer-container ul li:hover {
+    cursor: pointer;
+    color: #027838 !important;
+    border-bottom: 2px solid #027838 !important;
+  }
+  /*** mobile footer end ***/
+}
+
+/** ********************end of smaller screen********************** **/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/********/
+/** *******************start of bigger screen************************/
+@media only screen and (min-width: 690px) {
+  .main-area-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    background-color: black;
+  }
+
+  .main-area-container .top {
+    width: 100%;
+    height: 200px;
+    background-color: #027838;
+  }
+
+  .main-area-container .bottom {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-color: #eee;
+    position: relative;
+  }
+  .main-area-container .bottom .left {
+    background-color: #eee;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  .main-area-container .bottom .right {
+    width: 70%;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    left: 25%;
+    height: calc(100% + 100px);
+    top: -100px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  /*** loader start ****/
+  .loader-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #027838;
+    z-index: 5000;
+  }
+
+  .loader-container .centered-div .loader-img {
+    width: 90px;
+    height: 90px;
+    margin-top: 15%;
+    animation: rotateball 180s ease infinite;
+  }
+
+  .loader-container .centered-div .shadow {
+    width: 80px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: black;
+    margin-top: 20px;
+    filter: blur(6px);
+  }
+
+  @keyframes rotateball {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(36000deg);
+    }
+  }
+
+  .loader-container .centered-div .title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    animation: blinkloadertitle 1s ease infinite;
+  }
+
+  @keyframes blinkloadertitle {
+    0% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+
+  /*** loader end ***/
+
+  /** desktop header start ***/
+
+  .desktop-header-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+
+  .desktop-header-container .top-box {
+    width: 100%;
+    position: relative;
+    background-color: ;
+  }
+
+  .desktop-header-container .top-box .logo {
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .desktop-header-container .top-box .logo .logo-icon {
+    width: 70px;
+    height: auto;
+    margin-right: -10px;
+  }
+  .desktop-header-container .top-box ul {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    color: white;
+  }
+
+  .desktop-header-container .top-box ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    /* transition: 0.3s ease; */
+  }
+
+  .desktop-header-container .top-box ul li:hover {
+    border-bottom: 2px solid #027837a4;
+  }
+
+  .desktop-header-container .bottom-box {
+    width: 25%;
+    color: white;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-header-container .bottom-box .profile-container {
+    width: 70%;
+    height: 100px;
+    background-color: ;
+    margin-top: 20px;
+  }
+
+  .desktop-header-container .bottom-box .profile-container .centered-div .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  /** desktop header end ***/
+
+  /** desktop menu start **/
+  .desktop-menu-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .desktop-menu-container .box {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: grey;
+    border: none;
+    border-radius: 7px;
+    transition: 0.2s ease;
+    text-align: center;
+  }
+
+  .desktop-menu-container .box.active {
+    background-color: #027838;
+    color: white;
+  }
+
+  .desktop-menu-container .box:hover {
+    background-color: #0278374f;
+    color: white;
+    /* animation: shake 1s ease; */
+  }
+
+  .desktop-menu-container .box:hover i {
+    animation: shake 1s ease;
+  }
+  .desktop-menu-container .box span {
+    font-size: 14px;
+    display: block;
+  }
+
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    30% {
+      transform: rotate(25deg);
+    }
+    60% {
+      transform: rotate(-25deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  /** desktop menu end ***/
+
+  /** desktop footer start ***/
+  .desktop-footer-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 100;
+    padding: 5px;
+    width: 25%;
+  }
+
+  .desktop-footer-container ul li {
+    display: inline-block;
+    font-size: 14px;
+    color: grey !important;
+    margin-right: 10px;
+    transition: 0.5s ease;
+  }
+
+  .desktop-footer-container ul li a {
+    color: grey;
+  }
+  .desktop-footer-container ul li:hover {
+    cursor: pointer;
+    color: #027838 !important;
+    border-bottom: 2px solid #027838 !important;
+  }
+  /** desktop footer end ***/
+
+  /** mobile bottom menu start ***/
+  .mobile-bottom-menu-container {
+    display: none;
+  }
+
+  /** mobile bottom menu end ***/
+
+  /*** mobile header start ****/
+  .mobile-header-container {
+    display: none;
+  }
+
+  /*** mobile header end ***/
+
+  /** mobile footer start ***/
+  .mobile-footer-container {
+    display: none;
+  }
+
+  /*** mobile footer end ***/
+}
+
+/** **************end of bigger screen************************ **/
+
+.centered-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
